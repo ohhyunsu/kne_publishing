@@ -1,0 +1,23 @@
+/* main-noticeBox.css */
+
+.noticeBox {width: 1600px; height:  860px; margin:auto; box-sizing: border-box;  }
+
+.notice_title_line { width: 1600px; height: 130px; box-sizing: border-box;
+
+background-image: url(../../../img/notice_line.png); background-repeat: no-repeat; background-position: 50% 0;
+}
+
+.notice_title { width: 1600px; height: 60px; line-height: 60px; font-size: 40px;  color: #333; font-weight: bold; text-align: center;}
+
+.notict_sub_title  { width: 1600px; height: 22px; line-height: 22px; font-size: 16px; text-align: center; margin-bottom:78px;}
+
+.notice_area { width: 1600px; height: 430px; }
+.notice_01 { float: left; width: 510px; height: 430px; margin-right:35px; }
+.notice_02 { float: left; width: 510px; height: 430px; margin-right:35px; }
+.notice_03 { float: left; width: 510px; height: 430px; }
+.notice_img { width: 500px; height: 270px;}
+.notice_text { width: 100%; height: auto; padding: 40px 10px; box-sizing: border-box;}
+
+.notice_text li:nth-child(1) { font-weight: bold; font-size: 16px; margin-bottom: 24px;}
+.notice_text li:nth-child(2) { font-weight: bold; font-size: 20px; margin-bottom: 24px;}
+.notice_text li:nth-child(3) { font-weight: bold; font-size: 12px;}

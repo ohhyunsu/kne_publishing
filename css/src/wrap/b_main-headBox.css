@@ -1,0 +1,28 @@
+/* main-headBox.css */
+
+/* #headBox ============== */
+#headBox { width:1600px; height: 90px; padding:30px 0; margin:auto; box-sizing: border-box;}
+
+  .logo { float:left; width: 160px; height :30px;}
+
+  .navigation { float:right; width:960px; height:auto; }
+
+  .navigation > ul { width: 100%; height: auto;}
+  
+  .navigation li { 
+    float:left; 
+    width: 150px; height: 30px;
+    font-family: "Noto Sans KR",sans-serif;
+    font-weight: 400;
+    
+    margin-right:10px;
+    box-sizing: border-box;
+    line-height: 30px;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+  }
+    .navigation li:last-child {margin-right:0;}
+
+    .navigation li:hover a,
+    .navigation li:focus a{ color: #e30a1d; /* background-color: #acf; padding:20px; */}

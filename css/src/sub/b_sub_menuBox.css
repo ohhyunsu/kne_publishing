@@ -1,0 +1,13 @@
+/* b_sub_menuBox.css */
+
+#sub_menuBox {position: absolute; top: 430px; left: 0; width: 100%; height: 60px;background-color:rgba(0, 0, 0, 0.6);}
+
+.sub_menu_area {width: 1600px; height: auto; margin: auto;}
+
+.home_icon{ float: left; width: 60px; height: 60px; line-height: 60px; text-align: center ; color: #fff; font-size: 26px; 
+  border-left:1px solid #fff ; border-right:1px solid #fff ;}
+.home_icon i{ text-align: center ;}
+.main_nav { float: left; width: 260px; height: auto; line-height: 60px; text-indent: 20px; color: #fff; font-size: 18px; border-right:1px solid #fff ; box-sizing: border-box; z-index: 10;}
+.main_nav i{ float: right; width: 60px; line-height: 60px;}
+.sub_nav { float: left; width: 260px; height: auto; line-height: 60px; text-indent: 20px; color: #fff; font-size: 18px; border-right:1px solid #fff ; box-sizing: border-box;}
+.sub_nav i{ float: right; width: 60px; line-height: 60px;}

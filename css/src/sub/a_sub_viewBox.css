@@ -1,0 +1,12 @@
+/* a_sub_viewBox.css */
+
+#sub_viewBox { width: 100%; height: 400px; 
+  background-image: url(../../../img/sub_vision_01.png); 
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.sub_view_text { width: 700px; height: 200px; margin: auto; text-align: center; }
+.sub_view_text h2{ color: #fff; padding-top:10px; font-size: 36px;}
+.sub_view_text p{ color: #fff; padding-top:140px; font-size: 18px;}
+

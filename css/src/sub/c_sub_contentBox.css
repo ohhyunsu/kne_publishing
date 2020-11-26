@@ -1,0 +1,13 @@
+/* c_sub_contentBox.css */
+
+#contentBox {width: 1600px; height: auto; min-height: 700px;  margin: auto; padding-top: 30px;}
+
+.content_title_line { 
+  width: 1600px; height: 130px; box-sizing: border-box;
+  background-image: url(../../../img/notice_line.png); background-repeat: no-repeat; background-position: 50% 0;
+  }
+  
+.content_title { width: 1600px; height: 60px; line-height: 60px; font-size: 40px;  color: #333; font-weight: bold; text-align: center;}
+
+.content_img { width: 1280px; height: 270px; margin: auto; padding-top: 40px;}
+.narr{width: 1280px; height: auto;  margin: auto; padding: 40px; box-sizing: border-box; text-align: center; font-size: 18px; line-height: 30px;}

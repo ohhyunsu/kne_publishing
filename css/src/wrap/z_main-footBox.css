@@ -1,0 +1,39 @@
+/* main-footBox.css */
+
+/* #footBox ============== */
+#footBox { width: 100%; height: 330px; padding:90px 0;  box-sizing:border-box; border-top: 1px solid #d8d8d8;}
+.foot_outer { width: 1600px; height: auto; margin:auto;}
+.foot_outer>div {float: left; width: 380px; height: 166px;}
+.foot_outer>div:last-child {float: right; }
+
+.foot_logo{ margin-bottom: 20px;}
+.address { font-size: 16px; line-height: 28px;}
+.address span { font-weight: bold;}
+
+.cusomter_title {font-size: 20px; margin-bottom: 20px;}
+.customer_tel {font-size: 40px; font-weight: bold; color: #1755a4; margin-bottom: 10px;}
+.customer_time {font-size: 16px; color: #666666; }
+
+
+.qa_title {font-size: 20px; margin-bottom: 20px;}
+.qa_Box p {font-size: 16px;}
+
+
+.famaily_Box ul>li { float: right; font-size: 18px; padding:0 20px; margin-bottom: 20px;}
+.famaily_Box ul>li:nth-child(1) { font-weight: bold;  }
+.famaily_Box ul>li:nth-child(2) {border-right:1px solid #333 ; }
+.family_style { 
+  float: right; 
+  width: 220px; height: 40px; 
+  line-height: 40px;
+  text-align: center;
+  font-weight: 600; 
+  background-color: #fff; 
+  border: 1px solid #333; 
+  box-sizing: border-box;
+}
+
+#copyright { width: 100%; height: 90px; padding:30px 0; box-sizing: border-box;  }
+.copyright_outer { width: 1600px; height: auto; margin:auto; }
+.copyright_logo  { float: left; display: block; width: 180px; height: auto;}
+.copyright_text { float: left; display: block; width: 700px; height: auto;}

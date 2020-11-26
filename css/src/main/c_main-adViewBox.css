@@ -1,0 +1,59 @@
+/* main-adViewBox.css */
+
+/* #adViewBox ============== */
+#adViewBox { 
+  position: relative;
+  height: auto; min-height: 870px;}
+
+.View_btn { 
+  position:absolute; top:350px; bottom:0; left:0; right:0;
+  width: 1400px; height: 0; margin:auto; margin-top: -20px;
+}
+.next_View { float:right;}
+.prev_View { float:left;}
+
+.View_btn button { 
+  width: 40px; height: 40px; font-size: 36px;
+  margin:auto; margin-top:-20px; color:#fff;
+  text-shadow:3px 3px 3px rgba(0,0,0,7);
+}
+
+
+.View_indicater { 
+  position: absolute; 
+  bottom:28px; left:0; right:0;
+  width: 120px; height: auto; 
+  margin:auto; 
+  z-index: 100;
+  
+}
+
+.View_indicater ol { width: 78px; height: auto;margin:auto; }
+
+.View_indicater li {float: left; width: 16px; height: 16px; margin: 5px; }
+
+.View_indicater a { 
+  position: relative;
+  display: block; width: 100%; height: 100%; 
+  border-radius: 40px;
+  background-color: #fff;}
+.View_indicater a:hover,
+.View_indicater a:focus { background-color: #02428c;}
+
+
+.View_outer { 
+  width: 100%; height: 870px; 
+  margin:auto;
+  overflow: hidden;
+}
+
+.scroll_down { width: 120px; height: 30px; margin-top:5px; margin-bottom:5px; text-align: center;}
+.bullet_arrow { width: 120px; height: auto; text-align: center;}
+
+.View_area { width: 600%; height: 100%; position: relative; left:0; top:0;}
+.View_area > div { float:left; width:calc(100% / 6) ; height: 100%;}
+.View_area:after,
+.View_area::after { content: " "; display: block; clear: both;}
+  .View_01 { z-index: 3; background-image: url(../../../img/adView_01.png); background-position: 50% 50%; background-repeat: no-repeat;}
+  .View_02 { z-index: 2; background-color: #C1297E;}
+  .View_03 { z-index: 1; background-color: #54DFD6;}

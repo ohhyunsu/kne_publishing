@@ -1,0 +1,9 @@
+/* g_main-localNavBox.css */
+
+#localNavBox {width: 1600px; height: 200px; margin:60px auto; padding: 0 10px; box-sizing: border-box; }
+
+.localNav_area {float: left; width: 380px; height: 200px; padding:40px 10px; border: 1px solid #ddd; box-sizing: border-box; margin-right: 20px; }
+.localNav_area:last-child { margin-right: 0;}
+.locanNav_icon {float: left; margin-right: 20px;}
+.localNav_text {float: left;}
+.localNav_text h3{margin:20px 0;}

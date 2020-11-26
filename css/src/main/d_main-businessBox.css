@@ -1,0 +1,14 @@
+/* main-businessBox.css */
+
+.businessBox { position: relative; width: 1600px; height: 960px; margin: 0 auto; padding: 120px 90px; box-sizing: border-box;}
+
+.b_box_img { width: 940px; height: 720px; background-color: blueviolet;}
+.b_box_text { position: absolute; top:220px; right: 0; width: 700px; height: 520px; padding: 80px 90px; background-color:#fff;box-sizing: border-box;}
+
+.b_box_text_area_01 { width: 540px; height: 190px;  border-bottom: 1px solid #34343c;}
+.b_box_text_area_01 h3 { font-size: 16px; color: #5884a3; text-transform: uppercase;}
+.b_box_text_area_01 h2 { font-size: 40px; color: #333; margin-bottom: 15px; }
+
+.b_box_text_area_02 { width: 540px; height: auto;}
+.b_box_text_area_02 h4 { margin-top: 50px; margin-bottom: 10px; font-size: 18px;}
+.b_box_text_area_02 p { font-size: 14px;}

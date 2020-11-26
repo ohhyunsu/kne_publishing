@@ -1,0 +1,7 @@
+/* main.css */
+@import url("./wrap/a_main-wrap.css");
+@import url("./wrap/b_main-headBox.css");
+@import url("./sub/a_sub_viewBox.css");
+@import url("./sub/b_sub_menuBox.css");
+@import url("./sub/c_sub_contentBox.css");
+@import url("./wrap/z_main-footBox.css");

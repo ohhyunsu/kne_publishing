@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* reset.css */
+
+html, body{margin:0; padding: 0;}
+
+h1, h2, h3, h4, h5, h6, p, div, img { margin:0; padding:0;}
+ul, ol, li, dl, dt, dd  { margin:0; padding:0; list-style:none;}
+
+button { padding:0; margin:0; border:0; background-color: transparent; cursor: pointer;}
+a { text-decoration: none; color:inherit; }
+
+
